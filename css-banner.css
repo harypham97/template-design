@@ -1,14 +1,9 @@
 
-* {
-	margin:0;
-	padding: 0;
-	box-sizing: border-box;
-}
 
-@media only screen and (min-width: 1200px) {
+
+/*@media only screen and (min-width: 1200px) {*/
 	 /* styles for browsers larger than 1440px; */
 	.banner {
-	position: relative;
 	position: relative;
 	height: 875px;
 	width: 100%;
@@ -29,7 +24,7 @@
 .about-us {	
 	position: absolute;
 	left:70%;
-	top:51px;
+	top:52px;
 
 	height: 16px;	
 	width: 66px;	
@@ -185,7 +180,7 @@ width: 100%;
 }
 
 
-.start-now {
+.start-now-banner {
 	position: absolute;
 	top:15px;
 	right:47px;
@@ -201,7 +196,7 @@ width: 100%;
 	line-height: 21px;
 }
 
-.border-start-now {
+.border-start-now-banner {
 	position: relative;
 	left: 44.95%;
 	top: 592px;
@@ -212,7 +207,7 @@ width: 100%;
 	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
 }
 
-}
+/*}*/
 
 
 
