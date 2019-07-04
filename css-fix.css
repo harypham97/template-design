@@ -1,0 +1,453 @@
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+button {
+	height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 16px;
+    letter-spacing: 1.33px;
+    line-height: 21px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+/*header*/
+
+.section-top {
+	position: relative;
+	height: 875px;
+	width: 100%;
+	background-image: url("G:/Data Sublime Text/template-design/banner.jpg") ;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.about-us {
+	position: absolute;
+	left:70%;
+	top:52px;
+}
+
+.about-us a {
+	color: #283238;	
+	font-family: Roboto;	
+	font-size: 12px;	
+	letter-spacing: 1px;	
+	line-height: 16px;
+}
+
+.sign-in {
+	border: 2px solid #8bc34a;
+    width: 82px;
+    height: 36px;
+    border-radius: 100px;
+    position: absolute;
+    bottom: 796px;
+    left: 78.42%;
+    text-align: center;
+    line-height: 36px;
+
+}
+
+.sign-in a {
+	color: #8bc34a;
+}
+
+.section-top .hapo-erp {
+	margin-top: 13%;
+    margin-left: 43.33%;
+}
+
+
+.icon161-themify {
+	position: absolute;
+	width: 96px;
+    height: 110px;
+    left: 30.47%;
+    top: 43%;
+    color: #283238;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 300;
+    letter-spacing: -0.07px;
+
+}
+
+.icon161-themify .icon161 {
+	width: 52px;
+    height: 48px;
+    margin-left: 22px;
+}
+
+.icon199-themify {
+	position: absolute;
+	width: 101px;
+    height: 110px;
+    left: 47%;
+    top: 43%;
+    color: #283238;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 300;
+    letter-spacing: -0.07px;
+
+}
+
+.icon199-themify .icon199 {
+	width: 52px;
+    height: 48px;
+    margin-left: 22px;
+}
+
+.icon113-themify {
+	position: absolute;
+	width: 141px;
+    height: 110px;
+    left: 62%;
+    top: 43%;
+    color: #283238;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 300;
+    letter-spacing: -0.07px;
+
+}
+
+.icon113-themify .icon113 {
+	width: 52px;
+    height: 48px;
+    margin-left: 22px;
+}
+
+
+.txt-content {
+	position: absolute;
+	left: 35.21%;
+	top: 537px;
+
+	height: 24px;
+	color: #283238;
+	font-family: Roboto;
+	font-size: 18px;
+	font-style: italic;
+	letter-spacing: -0.03px;
+	line-height: 24px;
+}
+
+.btn-start-top {
+	position: absolute;
+	left: 45%;
+	bottom: 27%;
+	width: 195px;
+    height: 50px;
+}
+
+
+/* body part1 - section learn*/
+
+.body-part1 {
+
+	position: relative;
+	height: 571px;
+	width: 1140px;
+	margin: 100px auto; 
+	
+	background-color: #FFFFFF;
+	
+
+}
+
+.body-part1 .container-left .img-part1 {
+
+	margin-right: 30.48px;
+    margin-top: 100px;
+
+    position: absolute;
+	height: 365px;
+	width: 555px;
+	
+}
+
+.body-part1 .container-right {
+	position: absolute;
+	height: 371px;
+	width: 555px;
+
+	top:100px;
+	bottom: 100px;
+	right: 0;
+
+}
+
+.body-part1 .container-right .icon25-themify {
+	position: absolute;
+	height: 36px;
+	width: 36px;
+
+	top: 14px;
+}
+
+.body-part1 .container-right h1 {
+	margin-left: 54px;
+    margin-bottom: 15px;
+    color: #444444;
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 300;
+    letter-spacing: -0.09px;
+    line-height: 63px;
+}
+
+.body-part1 .container-right span {
+	color: #283238;
+	font-family: Roboto;
+	font-size: 14px;
+	font-style: italic;
+	letter-spacing: -0.03px;
+	line-height: 19px;
+}
+
+.body-part1 .container-right p {
+	margin-top: 25px;
+
+	height: 168px;
+	width: 554px;
+	color: #283238;
+	font-family: Roboto;
+	font-size: 13px;
+	line-height: 24px;
+	text-align: justify;
+
+}
+
+.btn-start-learnt {
+	width: 195px;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+
+/* body part2 - section */
+.body-part2 {
+	position: relative;
+	height: 370px;
+	width: 1140px;
+
+	margin: 100px auto;
+	background-color: #FFFFFF;
+}
+.body-part2 .daily-report-left {
+	position: absolute;
+	height: 100%;
+	width: 555px;
+
+	top: 0;
+	left: 0;
+}
+
+.body-part2 .daily-report-left h1 {
+	color: #444444;
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 300;
+    letter-spacing: -0.09px;
+    line-height: 63px;
+
+    margin-left: 54px;
+    margin-bottom: 15px;
+
+}
+
+.body-part2 .daily-report-left p {
+	 margin-top: 25px;
+	 height: 168px;
+	width: 554px;
+	color: #283238;
+	font-family: Roboto;
+	font-size: 13px;
+	line-height: 24px;
+	text-align: justify;
+}
+
+.body-part2 .daily-report-left span {
+	color: #283238;
+	font-family: Roboto;
+	font-size: 14px;
+	font-style: italic;
+	letter-spacing: -0.03px;
+	line-height: 19px;
+}
+
+
+.body-part2 .daily-report-left .icon201-themify {
+	position: absolute;
+	height: 36px;
+	width: 36px;
+
+	top: 14px;
+}
+
+.btn-start-daily-report {
+	position: absolute;
+	height: 50px;
+	width: 195px;
+
+	border-top: 2.09%;
+	left: 0%;
+}
+
+.body-part2 .daily-report-right .img-part2 {
+	position: absolute;
+	height: 100%;
+	width: 555px;
+	right: 0;
+
+	margin-left: 30.48px;
+}
+
+/* body part3 - section */
+
+.background-part3 {
+	position: relative;
+	height: 322px;
+	max-width: 1980px;
+	margin: 0 0 0 0;
+    background: linear-gradient(315deg, #B4EC51 0%, #429321 100%);
+}
+
+.body-part3 {
+	position: relative;
+	height: 322px;
+	width: 1140px;
+
+	margin: 0 auto;
+}
+
+.body-part3 .container-part3 {
+	position: absolute;
+
+	height: 183.25px;
+	width: 109.5px;
+	top:68.75px;
+	bottom: 70px;
+	border: 1px solid red;
+
+}
+
+.body-part3 .container-part3 .icon-part3 {
+	position: absolute;
+
+	left:32px;
+	top: 30px;
+
+}
+
+.body-part3 .container-part3 .oval-1-part3 {
+	position: absolute;
+	top: 0;
+	left:0;
+	box-sizing: border-box;
+	height: 109.5px;
+	width: 109.5px;
+	border: 2.5px solid #FFFFFF;
+	border-radius: 50%;
+}
+
+.body-part3 .container-part3 .oval-2-part3 .content-oval {
+	position: absolute;
+	top: 7px;
+	left: 28%; 
+
+	height: 32px;
+	width: 14px;
+	color: #FFFFFF;
+	font-family: Roboto;
+	font-size: 24px;
+	letter-spacing: -0.05px;
+	line-height: 32px;
+}
+
+.body-part3 .container-part3 .oval-2-part3 {
+	position: absolute;
+	top: 85px;
+	left: 28%; 
+
+	box-sizing: border-box;
+	height: 45.5px;
+	width: 45.5px;
+	border: 2.5px solid #FFFFFF;
+	background-color: #7CB342;
+	border-radius: 50%;
+}
+
+
+.body-part3 .container-part3 .text-part3 {
+	color: #FFFFFF;
+	font-family: Roboto;
+	font-size: 16px;
+	letter-spacing: 1.33px;
+	line-height: 21px;
+	text-align: center;
+}
+
+.body-part3 .container-part3 .daily-report {
+	position: absolute;
+	bottom: 0;
+
+}
+
+.body-part3 .container-part3-position1 {
+	position: absolute;
+
+}
+
+.body-part3 .container-part3-position2 {
+	position: absolute;
+	left: 257px;
+	top: 68.75px;
+
+}
+
+.body-part3 .container-part3-position3 {
+	position: absolute;
+	left: 515px;
+	top: 68.75px;
+
+}
+
+.body-part3 .container-part3-position4 {
+	position: absolute;
+	left: 713px;
+	top: 68.75px;
+}
+
+.body-part3 .container-part3-position5 {
+	position: absolute;
+	left: 1015px;
+	top: 68.75px;
+
+}
+
+
+
+
+
+
+
+
+
+/* body part4 - section */
