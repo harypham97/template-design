@@ -9,14 +9,12 @@ li {
 }
 
 button {
-	width: 195px;
-	height: 50px;
     border-radius: 100px;
     background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
     color: #FFFFFF;
     font-family: Roboto;
-    font-size: 16px;
+   
     letter-spacing: 1.33px;
     line-height: 21px;
     text-transform: uppercase;
@@ -26,24 +24,15 @@ button {
 .header {
 	display: flex;
 	justify-content: center;
-
-	
-	background-image: url('../template-design/banner.jpg') ;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover;
-
-}
-.section-top {
-	flex-basis:80%;
 }
 
-.header .section-top ul {
+
+.section-top ul {
 	float: right;
-	height: 82px;
+	height: 42px;
 	width: 186px;
-	margin-top: 43px;
-
 }
 
 .sign-in a {
@@ -77,38 +66,21 @@ button {
 }
 
 
-.section-top .hapo-erp {
+.hapo-erp {
 	display: flex;
 	justify-content: center;
-	height: 77px;
-
-	margin-top: 244px;
-  
 }
 
-.section-top .icon-and-text img {
-	width: 52px;
-	height: 48px;
+
+.icon-and-text {
 	
-}
-
-.section-top .icon-and-text p {
-	color: #283238;
-    font-family: Roboto;
-    font-size: 36px;
-    font-weight: 300;
-    letter-spacing: -0.07px;
-}
-
-.section-top .icon-and-text {
 	display: flex;
-	
 	flex-direction: row;
 	justify-content: space-between;
 
-	height: 110px;
-}
+	height: 30%;
 
+}
 
 
 .container-banner {
@@ -118,21 +90,16 @@ button {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-
 }
 
- .icon-like p, .icon-like img {
- 	margin-left: -70px;
- }
 
-.section-top .txt-content p {
+
+.txt-content p {
 	display: flex;
 	justify-content: center;
-
-	margin-top: 50px;
 	color: #283238;
 	font-family: Roboto;
-	font-size: 18px;
+	
 	font-style: italic;
 	letter-spacing: -0.03px;
 	line-height: 24px;
@@ -143,27 +110,17 @@ button {
 	 display: flex;
 	 align-items: center;
      justify-content: center;
-     margin-top: 50px;
-
 }
 
 /* DRY CODE */
 
 .body-part1, .body-part2, .body-part4, .body-part5, .body-part6, .body-part7 {
-	height: 571px;
-	
 	display: flex;
 	justify-content: center;
 	
 }
 
-.content-part1, .content-part2, .content-part4, .content-part5, .content-part6, .content-part7 {
-	flex-basis:80%;
 
-	display: flex;
-	justify-content: space-between;
-	flex-direction:row;
-}
 
 .img-part1, .img-part2, .img-part4, .img-part5, .img-part7 {
 	height: 366.33px;
@@ -173,16 +130,8 @@ button {
 /*part1 === part5
 ---------------------------------------
 */
-.container-left, .customers-left  {	
-	margin-top: 100px;
-	height: 366.33px;
-	width: 48.62%;
-}
-.container-right, .customers-right {
-	height: 366.33px;
-	margin-top: 100px;
-	width: 48.68%;
-}
+
+
 /*part1 === part5
 ----------------------------------------
 */
