@@ -1,0 +1,298 @@
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;
+}
+
+button {
+	border-radius: 100px;
+	background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+	color: #FFFFFF;
+	font-family: Roboto;
+	letter-spacing: 1.33px;
+	line-height: 21px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.header {
+	display: flex;
+	justify-content: center;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.section-top ul {
+	float: right;
+	height: 42px;
+	width: 186px;
+}
+
+.sign-in a {
+	color: #8bc34a;
+}
+
+.sign-in {
+	color: #8bc34a;
+	float: right;
+	border: 2px solid #8bc34a;
+	width: 82px;
+	height: 36px;
+	border-radius: 100px;
+	text-align: center;
+	line-height: 36px;
+}
+
+.about-us a {
+	color: #283238;	
+	font-family: Roboto;	
+	font-size: 12px;	
+	letter-spacing: 1px;	
+	line-height: 16px;
+}
+
+.about-us {
+	float: left;
+	margin-top: 9px;
+}
+
+
+.hapo-erp {
+	display: flex;
+	justify-content: center;
+}
+
+
+.icon-and-text {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	height: 30%;
+}
+
+
+.container-banner {
+	width: 33.33%;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+.txt-content p {
+	display: flex;
+	justify-content: center;
+	color: #283238;
+	font-family: Roboto;	
+	font-style: italic;
+	letter-spacing: -0.03px;
+	line-height: 24px;
+}
+
+.btn-start-top {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* DRY CODE */
+
+.body-part1, .body-part2, .body-part4, .body-part5, .body-part6, .body-part7 {
+	display: flex;
+	justify-content: center;
+	
+}
+
+
+.icon-and-title {
+	display: flex;
+	flex-direction: row;
+}
+
+/* DRY CODE */
+
+
+.body-part1, .body-part4 {
+	box-shadow: 0 15px 35px 0 rgba(0,0,0,0.1);
+}
+
+
+.check-box-text img {
+	height: 24px;
+	width: 18px;
+	float: left;
+	
+}
+.check-box-text p {
+	margin-left: 25px;	
+}
+
+.body-part6 {
+	background-image: url('../template-design/our-customers.jpg') ;
+	display: flex;
+	justify-content: center;
+}
+
+.content-part6 {
+	display: flex;
+	flex-direction: column;
+}
+.wrap-text {
+	height: 50%;
+
+	display: flex;
+	flex-direction: column;
+}
+.wrap-image {
+
+	height: 50%;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.title-part6 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.title-part6 p {
+	color: #FFFFFF;
+	font-family: Roboto;
+}
+
+.img-txt-part6 {
+	height: 136px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.container-face {
+	display: flex;
+	width: 80px;
+	height: 136px;
+	
+	justify-content: flex-end;
+}
+
+.customer-text {
+	margin-top: 10px;
+}
+.customer-text p {
+	color: #FFFFFF;
+	font-family: Roboto;
+	font-size: 10px;
+	letter-spacing: -0.03px;
+	line-height: 13px;
+	text-align: center;
+}
+.icon-face img {
+	width: 80px;
+	height: 80px;
+}
+
+.icon-face {
+	display: flex;
+	flex-direction: column;
+}
+
+.three-dot {
+	height: 30px;
+	display: flex;
+	justify-content: center;
+}
+.dot1 {
+	background-color: #D8D8D8;
+}
+
+.dot1, .dot2 , .dot3 {
+	height: 11px;
+	width: 11px;
+	margin: 12px;
+
+	border: 0.5px solid #FFFFFF;
+	border-radius: 50%;	
+}
+
+.text-lorent {
+	display: flex;
+	height: 76.65%;
+}
+
+
+.quote-left {
+	height: 100px;
+	width: 100px;
+}
+.quote-right {
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+
+}
+.quote-text {
+	height: 90px;
+	flex: 70%;
+}
+.quote-text p {
+	height: 90px;
+	color: #FFFFFF;
+	text-align: justify;
+	font-family: Roboto;
+}
+
+.footer {
+	width: 100%;
+	background-color: #39474E;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.title-footer {
+	color: #8BC34A;
+	font-family: Roboto;
+	font-size: 13px;
+	font-weight: 500;
+	letter-spacing: -0.03px;
+	line-height: 18px;
+}
+
+.content-footer a, .logo-footer p {
+	color: #D0D8DC;
+	font-family: Roboto;
+	font-size: 10px;
+	font-weight: 500;
+	letter-spacing: -0.02px;
+	line-height: 20px;
+}
+
+.content-footer ul {
+	margin-top: 12px;
+}
+
+.logo-footer img {
+	height: 29px;
+	width: 96px;
+	margin-top: -12px;
+}
+
+.logo-footer p {
+	margin-top: auto;
+}
+
+.icon-social-network img {
+	height: 13px;
+	width: 13px;
+}
+
