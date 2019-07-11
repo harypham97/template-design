@@ -1,0 +1,228 @@
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;
+}
+
+button {
+	border-radius: 100px;
+	background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+	color: #FFFFFF;
+	font-family: Roboto;
+	letter-spacing: 1.33px;
+	line-height: 21px;
+	text-transform: uppercase;
+	cursor: pointer;
+
+	height: 40px;
+	width: 144px;
+}
+
+
+.sign-in a {
+	color: #8bc34a;
+}
+
+.sign-in {
+	color: #8bc34a;
+	float: right;
+	border: 2px solid #8bc34a;
+	width: 82px;
+	height: 36px;
+	border-radius: 100px;
+	text-align: center;
+	line-height: 36px;
+}
+
+.about-us a {
+	color: #283238;	
+	font-family: Roboto;	
+	font-size: 12px;	
+	letter-spacing: 1px;	
+	line-height: 16px;
+}
+
+.about-us {
+	float: left;
+	margin-top: 9px;
+}
+
+.hapo-erp {
+	height: 30px;
+	width: 100px;
+	
+}
+
+
+.icon-and-text img {
+	width: 18px;
+	height: 20px;
+}
+
+.icon-and-text p {
+	color: #283238;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: -0.03px;
+
+    margin-bottom: 0;
+}
+
+
+.header .txt-content p {
+	font-size: 9px;
+
+	color: #283238;
+	font-family: Roboto;	
+	font-style: italic;
+	letter-spacing: -0.03px;
+	line-height: 24px;
+	
+	margin-bottom: 0;
+}
+
+.section-learnt {
+	height: 687px;
+	border: 1px solid red;
+}
+
+.content-learnt, .content-report {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.icon-and-title img {
+	height: 20px;
+	width: 20px;
+	margin-top: 5px;
+
+}
+
+.icon-and-title h1 {
+	margin-left: 15px;
+
+	height: 32px;
+	width: 154px;
+	color: #444444;
+	font-family: Roboto;
+	font-size: 24px;
+	font-weight: 300;
+	letter-spacing: -0.05px;
+	line-height: 32px;
+}
+
+.learnt-left .text-content span {
+	height: 24px;
+	color: #283238;
+	font-family: Roboto;
+	font-size: 13px;
+	font-style: italic;
+	letter-spacing: -0.03px;
+	line-height: 24px;
+}
+
+.text-content p {
+	
+	color: #283238;
+	font-family: Roboto;
+	font-size: 13px;
+	line-height: 21px;
+	text-align: justify;
+
+	padding-top:20px;
+
+}
+
+.text-content span {
+	
+	color: #283238;
+	font-family: Roboto;
+	font-size: 13px;
+	line-height: 21px;
+	text-align: center;
+
+	padding-top:20px;
+
+}
+.btn-content {
+	text-align: center;
+}
+
+.img-learnt, .img-report, .img-part4, .img-part5, .img-part7 {
+	height: 302.47px;
+	width: 100%;
+	padding-top: 10px;
+}
+
+.section-feature {
+	height: 296px;
+	border: 1px solid red;
+
+	background: linear-gradient(315deg, #B4EC51 0%, #429321 100%);
+}
+
+.content-feature {
+	height: 100%;
+}
+.section-feature .container-part3 .oval-1-part3 {
+
+	height: 109.5px;
+	width: 109.5px;
+	box-sizing: border-box;
+	border: 2.5px solid #FFFFFF;
+	border-radius: 50%;
+
+}
+
+.section-feature .container-part3 .oval-2-part3 {
+	
+	margin-top: -26px;
+    margin-left: 31px;
+	box-sizing: border-box;
+	height: 45.5px;
+	width: 45.5px;
+	border: 2.5px solid #FFFFFF;
+	background-color: #7CB342;
+	border-radius: 50%;
+
+	display: flex;
+	align-items: center;
+    justify-content: center;
+}
+
+.section-feature .container-part3 .oval-2-part3 p {
+	height: 32px;
+	width: 14px;
+	color: #FFFFFF;
+	font-family: Roboto;
+	font-size: 24px;
+	letter-spacing: -0.05px;
+	line-height: 32px;
+
+	margin-bottom: 0;
+}
+
+.section-feature .text-part3 {
+	color: #FFFFFF;
+	font-family: Roboto;
+	font-size: 16px;
+	letter-spacing: 1.33px;
+	line-height: 21px;
+	text-align: center;
+	height: 42px;
+	width: 77px;
+	margin-top:25.75px;
+}
+
+.dot1, .dot2 , .dot3 {
+	height: 11px;
+	width: 11px;
+	margin: 12px;
+
+	border: 0.5px solid #FFFFFF;
+	border-radius: 50%;	
+}
